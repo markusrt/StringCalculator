@@ -4,8 +4,8 @@ namespace StringCalculator
 {
     public class MagicClass
     {
-        public bool ItsMagic { get; set; } = false;
-        MagicClass()
+        public bool ItsMagic { get; set; } = true;
+        public MagicClass()
         {
 
         }
