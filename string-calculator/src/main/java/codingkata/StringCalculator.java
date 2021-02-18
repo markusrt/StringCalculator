@@ -1,8 +1,8 @@
 package codingkata;
 
-public class StringCalculator 
+class StringCalculator 
 {
-    StringCalculator()
+    private StringCalculator()
     {
         throw new RuntimeException();
     }
