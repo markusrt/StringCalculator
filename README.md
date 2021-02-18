@@ -1,6 +1,7 @@
 # String calculator Kata demo project
 
 ![.NET Core](https://github.com/markusrt/StringCalculator/workflows/.NET%20Core/badge.svg?branch=master)
+![Java](https://github.com/markusrt/StringCalculator/workflows/Java%20CI/badge.svg?branch=master)
 
 - Get your machine ready for [.Net core development](https://docs.microsoft.com/dotnet/core/get-started?tabs=windows) 
 - Read kata instructions <https://osherove.com/tdd-kata-1>
