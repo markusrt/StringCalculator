@@ -5,6 +5,8 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      working-directory: ./string-calculator
 
     steps:
       - uses: actions/checkout@v2
@@ -13,5 +15,4 @@ jobs:
         with:
           java-version: 1.8
       - name: Build with Maven
-        run: cd string-calculator
         run: mvn --batch-mode --update-snapshots verify
