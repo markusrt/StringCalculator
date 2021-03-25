@@ -6,7 +6,7 @@ namespace CodingKata
     public class StringCalculatorTests
     {
         [Test]
-        public void WhenMagicIsCreated_MagicHappens()
+        public void WhenCtorCallled_DoesNotThrow()
         {
             Assert.DoesNotThrow(() => _ = new StringCalculator());
         }
